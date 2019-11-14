@@ -1,9 +1,12 @@
+Golden BANK :
+
 Golden Bank consiste à gérer un compte bancaire à partir de notre smartphone. Le secteur bancaire étant en pleine expansion, chaque banque cherche à optimiser sa relation avec les clients en leur rendant l’accès à leurs comptes plus facile. Notre projet consiste à améliorer et faciliter l’accès du client à son compte grâce à une application mobile lui permettant de :
 
-Effectuer des transferts entre compte et compte,
-Consulter le solde de chaque compte
-Consulter les 10 dernières transactions effectuées sur son compte.
-Repérer les différentes branches de banque et ATM.
+- Effectuer des transferts entre compte et compte,
+- Consulter le solde de chaque compte
+- Consulter les 10 dernières transactions effectuées sur son compte.
+- Repérer les différentes branches de banque et ATM.
+
 Les intervenants de l'application :
 
 Client: Ce sont les clients de la banque ayant effectué l’enregistrement à l’application.
