@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fady.goldenbank.TransfersActivity"
+    tools:showIn="@layout/activity_transfers">
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/lblFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="From Account: "
+        android:textSize="20sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"/>
+
+    <Spinner
+        android:id="@+id/spAccountsFrom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@id/lblFrom"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/lblTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="To Account: "
+        android:textSize="20sp"
+        android:layout_below="@+id/spAccountsFrom"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spAccountsTo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/lblTo"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Amount"
+        android:textSize="20sp"
+        android:layout_below="@+id/spAccountsTo"/>
+
+    <Spinner
+        android:id="@+id/spCurrencies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txtAmount"
+        android:layout_below="@+id/spAccountsTo"/>
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Transfer"
+        android:textSize="27sp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_below="@+id/txtAmount"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

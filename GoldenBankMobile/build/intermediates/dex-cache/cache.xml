@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_deab8d34dd5b0db84879a5a4779087b424f20bbd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-6.5.87_725ebac9c96c73df11511d9b58483f595e13fdc1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_a4d77d39136a2e2f0615e6f2a9f7e629d7992742\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.2.1_4b3035952cc5be410b9c604c1dd9598772d4af00\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_0024438fd6c47aaf7477c7efa04ed0fbfa4c2f03\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_6850b904013eaf884d98437ccd3dcd3d2ca0001a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a72caee9135737f36f6e3fa616850244030a0b39">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4ac6ca4ddeb2039edfe6e1e4b1f8c7eacaf6f741\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_2b6a7d0008c51ddcda6a1b49f97b00d256f4f8b1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_f146135607c6da656b6c2c77e35ad48ccdf40ef8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_97367371fdd6e38b2cea3dbacf3b1eabd988924e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.0_53d1999025976fbbbbdb2eb02ac2a766eb8c54b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6f09da43e003047cda4fe84f73f124a603e7ff84">
+        <dex dex="C:\Users\FADI\Desktop\Mobile_Projet_Final\GoldenBankMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_828525520f4daab14751bce72d923c13581208e0\classes.dex" />
+    </item>
+
+</items>

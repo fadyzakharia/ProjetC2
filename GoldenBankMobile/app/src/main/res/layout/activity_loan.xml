@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fady.goldenbank.LoanActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src = "@drawable/loan"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_below="@+id/imageView2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@id/imageView2"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-80dp" />
+
+    <ImageView
+        android:id="@+id/seperator"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:src="@drawable/seperator"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignLeft="@+id/txtTitle"/>
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Small Text"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/simulator"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textDescription"
+        android:layout_centerHorizontal="true"
+        android:text="Simulate"
+        android:textSize="27sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/button_style"/>
+
+</RelativeLayout>
+</ScrollView>

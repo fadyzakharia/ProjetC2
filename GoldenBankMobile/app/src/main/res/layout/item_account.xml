@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblAccountId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account ID: "
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txtAccountId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAccountId"
+        android:text="ID "
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-25dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/lblBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAccountId"
+        android:layout_marginLeft="26dp"
+        android:text="Balance: "
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txtBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="balance "
+        android:layout_below="@+id/txtAccountId"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/txtCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="currency "
+        android:layout_below="@+id/txtAccountId"
+        android:layout_toRightOf="@+id/txtBalance"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_background">
+
+    <TextView
+        android:id="@+id/lblFieldToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Change Password"/>
+
+    <EditText
+        android:id="@+id/txtOld"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Old field"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lblFieldToChange"/>
+
+    <EditText
+        android:id="@+id/txtNew"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="New field"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtOld"/>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Change"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="17sp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_below="@+id/txtNew"
+        android:textStyle="bold"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnCancel"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtNew"
+        android:textSize="17sp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

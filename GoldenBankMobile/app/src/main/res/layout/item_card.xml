@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Number: "
+        android:layout_marginLeft="19dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card ID "
+        android:layout_toRightOf="@+id/lblCardNumber"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/lblMonthCeiling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ceiling / Month: "
+        android:textSize="20dp"
+        android:layout_below="@+id/lblCardNumber"/>
+
+    <TextView
+        android:id="@+id/txtMonthCeiling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="month"
+        android:layout_toRightOf="@+id/lblMonthCeiling"
+        android:layout_below="@+id/lblCardNumber"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/lblDayCeiling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ceiling / Day: "
+        android:layout_below="@+id/lblMonthCeiling"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtDayCeiling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="day"
+        android:layout_toRightOf="@+id/lblDayCeiling"
+        android:layout_below="@+id/lblMonthCeiling"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtMonthCeilingCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:layout_below="@+id/lblCardNumber"
+        android:layout_toRightOf="@id/txtMonthCeiling"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtDayCeilingCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:layout_below="@+id/lblMonthCeiling"
+        android:layout_toRightOf="@id/txtDayCeiling"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+</RelativeLayout>

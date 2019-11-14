@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fady.goldenbank.AccountsActivity"
+    tools:showIn="@layout/activity_accounts">
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true" />
+
+    <ImageView
+        android:id="@+id/imgDeposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/deposit_account"/>
+
+    <TextView
+        android:id="@+id/txtDeposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgDeposit"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Deposit Accounts"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/lstDepositAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgDeposit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp">
+    </ListView>
+
+    <View
+        android:layout_width="280dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/lstDepositAccounts"
+        android:background="#d3d3d3"/>
+
+    <ImageView
+        android:id="@+id/imgSaving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstDepositAccounts"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/savings_account"/>
+
+    <TextView
+        android:id="@+id/txtSaving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgSaving"
+        android:layout_below="@+id/lstDepositAccounts"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Savings Accounts"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/lstSavingsAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgSaving"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp">
+    </ListView>
+
+</RelativeLayout>

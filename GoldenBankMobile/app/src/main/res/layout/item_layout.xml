@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:src="@drawable/accounts"
+        android:adjustViewBounds="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Accounts"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/ivIcon"/>
+</RelativeLayout>

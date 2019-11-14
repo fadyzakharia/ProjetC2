@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fady.goldenbank.MyCardsActivity"
+    tools:showIn="@layout/activity_my_cards">
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true" />
+
+    <ImageView
+        android:id="@+id/imgDebit"
+        android:layout_width="95dp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/card"/>
+
+    <TextView
+        android:id="@+id/txtDebit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgDebit"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Debit Cards"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/lstDebitCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgDebit"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="75dp">
+    </ListView>
+
+    <View
+        android:layout_width="280dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/lstDebitCards"
+        android:background="#d3d3d3"/>
+
+    <ImageView
+        android:id="@+id/imgCredit"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/lstDebitCards"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/credit_card"/>
+
+    <TextView
+        android:id="@+id/txtCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgCredit"
+        android:layout_below="@+id/lstDebitCards"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Credit Cards"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/lstCreditCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgCredit"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="75dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnAcountsTransactions"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lstCreditCards"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="View Account Transactions"
+        android:textSize="20sp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+tools:context="com.example.fady.goldenbank.LoginActivity">
+
+<ImageView
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="65dp"
+    android:src="@drawable/logo"
+    android:adjustViewBounds="true">
+</ImageView>
+
+<EditText
+    android:id="@+id/txtUsername"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:textColor="#9f9e9e"
+    android:hint="Username"
+    android:textSize="25sp"/>
+
+<EditText
+    android:id="@+id/txtPassword"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:hint="Password"
+    android:textColor="#9f9e9e"
+    android:textSize="25sp"
+    android:inputType="textPassword"
+    />
+
+<Button
+    style="?android:attr/borderlessButtonStyle"
+    android:id="@+id/btnForgotPass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:text="Forgot Your Password?"
+    android:textSize="18sp"
+    android:onClick="open"
+    android:textColor="#f39b13"
+    android:textAllCaps="false"/>
+
+<Button
+    android:id="@+id/btnSignIn"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="30dp"
+    android:text="Sign In"
+    android:textSize="27sp"
+    android:background="@drawable/button_style"
+    android:textColor="#ffffff"
+    android:textAllCaps="false"/>
+
+</LinearLayout>

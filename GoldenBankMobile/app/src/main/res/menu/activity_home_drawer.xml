@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_bank"
+            android:icon="@drawable/bank"
+            android:title="My Bank" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/prod_logo"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_atm_branches"
+            android:icon="@drawable/loc_logo"
+            android:title="ATM / Branches" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/information_logo"
+            android:title="About us " />
+    </group>
+
+    <item android:title="For more information">
+        <menu>
+            <item
+                android:id="@+id/nav_call_us"
+                android:icon="@drawable/phone"
+                android:title="Call us" />
+            <item
+                android:id="@+id/nav_email_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Email us" />
+        </menu>
+    </item>
+
+</menu>

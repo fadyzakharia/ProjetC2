@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src = "@drawable/card"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_below="@+id/imageView2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@id/imageView2"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="-65dp" />
+
+    <ImageView
+        android:id="@+id/seperator"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:src="@drawable/seperator"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignLeft="@+id/txtTitle"/>
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Small Text"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/ceilingDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDescription"
+        android:text="Ceiling/Day: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/txtceilingDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDescription"
+        android:text="Ceiling/Day: "
+        android:textSize="20dp"
+        android:layout_alignRight="@+id/ceilingDay"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:id="@+id/ceilingMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ceilingDay"
+        android:text="Ceiling/Month: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/txtceilingMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ceilingDay"
+        android:layout_alignRight="@+id/ceilingMonth"
+        android:layout_alignParentRight="true"
+        android:text="Ceiling/Month: "
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="60dp"/>
+</RelativeLayout>
+
+</ScrollView>

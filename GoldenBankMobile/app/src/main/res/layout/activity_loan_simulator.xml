@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fady.goldenbank.LoanSimulator">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:adjustViewBounds="true"
+        android:src = "@drawable/loans"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_below="@+id/imageView2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@id/imageView2"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="-55dp" />
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="30dp"/>
+
+    <NumberPicker
+        android:id="@+id/amount"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/lblDownPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down Payment"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/amount"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/ETDownpayment"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_below="@+id/amount"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/txtYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Years:  0"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lblDownPayment"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBarYears"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ETDownpayment"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/txtMonths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Months:  0"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtYears"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <SeekBar
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarMonths"
+        android:layout_below="@+id/seekBarYears"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnSimulate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Simulate"
+        android:textSize="27sp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/seekBarMonths"/>
+
+</RelativeLayout>
